@@ -589,7 +589,7 @@ def forn_fall_payload():
     import pandas as pd
 
 
-    df_buy=df_buy[df_buy.first_buy <= '2020-04-01']
+    df_buy=df_buy[df_buy.first_buy <= '2020-06-01']
     df_buy.fillna(0, inplace = True)
 
 
